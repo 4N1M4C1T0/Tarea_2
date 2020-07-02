@@ -33,7 +33,7 @@ if (isset($_POST["operacion"])) {
     $autor = $_POST["dato3"];
     $editor = $_POST["dato4"];
     switch ($_POST["operacion"]){
-        case "Sumar": Libro::__construct($nombre,$ISBN,$autor,$editor );
+        case "AGREGAR": Libro::__construct($nombre,$ISBN, $autor, $editor );
             break;
     }
 }
