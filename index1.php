@@ -10,3 +10,13 @@ for($i=0;$i<$longitud;$i++){
     }
 }
 ?>
+
+<!--comment
+<?php
+$color = array(4 => 'Blanco', 6 => 'Verde', 11=> 'Roja');
+for ($i=0;$i<1;$i++)
+{
+    echo $color[4];
+}
+?>
+-->
